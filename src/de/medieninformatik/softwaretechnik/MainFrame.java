@@ -24,7 +24,7 @@ public class MainFrame extends Frame implements ActionListener{
     public MainFrame(){
         setSize(850, 550);
         setVisible(true);
-        setTitle("Version 1.0");
+        setTitle("Version 1.0.1");
 
         addWindowListener(mainFrameController);
         add(customCanvas);
